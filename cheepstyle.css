@@ -1,0 +1,61 @@
+body {
+  background-color: rgb(230, 238, 255);
+}
+.header h1{
+  text-align:center;
+  font-size:95px;
+  font-style:italic;
+  font-family:Purisa, URW Chancery L,Times;
+  border:2px, solid
+}
+.intro {
+  margin:auto;
+  width:700px;
+  text-align:center;
+  border-top: 5px solid blue;
+  border-bottom:5px solid blue;
+  border-length:400px;
+}
+.container {
+  margin:auto;
+  width:700px;
+}
+form, input {
+  margin:5px;
+  padding:5px;
+  width:100%
+}
+form {
+  font-family;Times,Ubuntu, URW Chancery L;
+  font-size:20px;
+}
+select {
+  margin:7px;
+  padding:5px;
+  width:50%
+}
+.button {
+  margin:auto;
+  display:block;
+  padding:7px;
+  font-size: 20px;
+  border-radius:12px;
+}
+.results {
+  width:700px;
+  margin;auto;
+}
+table, tr, td {
+  border-collapse: collapse;
+  border-bottom: 2px solid blue;
+  padding:5px;
+}
+tr:nth-child(even) {
+  background-color: pink;
+}
+table {
+  border:1px solid black;
+  display: block;
+  height: 900px;
+  overflow-y: scroll
+}
